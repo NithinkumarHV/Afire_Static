@@ -9,4 +9,13 @@ M.Slider.init(slider, {
   interval: 6000
 });
 
+$(document).ready(function() {
+  $(".carousel").carousel({
+    dist: 0,
+    padding: 0,
+    indicators: true,
+    duration: 100
+  });
+});
+
 M.AutoInit();
