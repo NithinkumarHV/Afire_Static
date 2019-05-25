@@ -11,9 +11,9 @@ M.Slider.init(slider, {
 
 $(document).ready(function() {
   $(".carousel").carousel({
-    dist: 0,
+    dist: 8,
     padding: 0,
-    indicators: true,
+    indicators: false,
     duration: 100
   });
 });
