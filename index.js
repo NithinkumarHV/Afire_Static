@@ -3,7 +3,7 @@ M.Sidenav.init(sideNav, {});
 
 const slider = document.querySelector(".slider");
 M.Slider.init(slider, {
-  indicators: false,
+  indicators: true,
   height: 400,
   transition: 500,
   interval: 6000
@@ -11,8 +11,10 @@ M.Slider.init(slider, {
 
 $(document).ready(function() {
   $(".carousel").carousel({
-    dist: 8,
+    dist: -100,
     padding: 0,
+    numVisible: 3,
+    shift: 100,
     indicators: false,
     duration: 100
   });
